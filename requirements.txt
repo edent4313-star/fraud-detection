@@ -8,3 +8,7 @@ xgboost
 shap
 jupyter
 pytest
+ipykernel
+notebook
+jinja2
+joblib
