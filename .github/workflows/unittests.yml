@@ -24,9 +24,5 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover tests
-
-    - name: Run tests
-      run: |
         export PYTHONPATH=$PYTHONPATH:$(pwd)
         python -m unittest discover tests
